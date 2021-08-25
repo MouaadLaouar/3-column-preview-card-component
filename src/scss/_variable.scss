@@ -1,0 +1,20 @@
+//primary
+
+$Bright-orange: hsl(31, 77%, 52%);
+$Dark-cyan: hsl(184, 100%, 22%);
+$Very-dark-cyan: hsl(179, 100%, 13%);
+
+//neutral 
+
+$Transparent-white: hsla(0, 0%, 100%, 0.75); //(paragraphs)
+$Very-light-gray: hsl(0, 0%, 95%);  //(background, headings, buttons)
+
+//body copy
+
+$font-size: 15px;
+
+//font 
+ 
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+$font: 'Lexend Deca', sans-serif;

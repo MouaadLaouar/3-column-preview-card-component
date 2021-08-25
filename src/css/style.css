@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+section {
+  height: 500px;
+  width: 900px;
+  display: flex;
+  border-radius: 10px;
+}
+
+section nav {
+  height: 100%;
+  width: 300px;
+}
+
+section nav h1 {
+  color: #f2f2f2;
+}
+
+section nav p {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+section nav:nth-child(1) {
+  background-color: #e38826;
+  border-radius: 10px 0px 0px 10px;
+}
+
+section nav:nth-child(1) .content .btn {
+  color: #e38826;
+}
+
+section nav:nth-child(1) .content .btn:hover {
+  color: rgba(255, 255, 255, 0.75);
+  border-color: #f2f2f2;
+  background-color: #e38826;
+}
+
+section nav:nth-child(2) {
+  background-color: #006970;
+}
+
+section nav:nth-child(2) .content .btn {
+  color: #006970;
+}
+
+section nav:nth-child(2) .content .btn:hover {
+  color: rgba(255, 255, 255, 0.75);
+  border-color: #f2f2f2;
+  background-color: #006970;
+}
+
+section nav:nth-child(3) {
+  background-color: #004241;
+  border-radius: 0px 10px 10px 0px;
+}
+
+section nav:nth-child(3) .content .btn {
+  color: #004241;
+}
+
+section nav:nth-child(3) .content .btn:hover {
+  background-color: #004241;
+  color: rgba(255, 255, 255, 0.75);
+  border-color: #f2f2f2;
+}
+
+section .content {
+  height: 100%;
+  margin: 50px;
+}
+
+section .content div:nth-child(1), section .content h1, section .content p {
+  margin-bottom: 30px;
+}
+
+section .content .btn {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: #f2f2f2;
+  background-color: #f2f2f2;
+}
+
+section .content .btn:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 450px) {
+  body {
+    height: 100%;
+  }
+  section {
+    margin-top: 50px;
+    height: 1500px;
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: red;
+  }
+  section nav {
+    height: 500px;
+    width: 100%;
+  }
+  section nav:nth-child(1) {
+    border-radius: 10px 10px 0px 0px;
+  }
+  section nav:nth-child(3) {
+    border-radius: 0px 0px 10px 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
